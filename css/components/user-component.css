@@ -1,0 +1,55 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-component__column {
+  display: flex;
+}
+
+.user-component__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.user-component__avatar--lg {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-component__name {
+  font-weight: 600;
+  font-size: 15px;
+}
+.user-component__status-message {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.user-component__name--lg {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.user-component__column:last-child {
+  color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__column:last-child i {
+  margin-left: 6px;
+}
+
+.user-component__time {
+  font-size: 15px;
+  margin-bottom: 5px;
+}

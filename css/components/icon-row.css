@@ -1,0 +1,23 @@
+.icon-row {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.icon-row__column {
+  margin-bottom: 40px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon-row__column i {
+  font-size: 20px;
+}
+
+.icon-row__column span {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 25px;
+}

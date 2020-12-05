@@ -1,0 +1,10 @@
+.alt-screen-header {
+  display: flex;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 20px;
+}
+
+.alt-screen-header__column:nth-child(2) {
+  margin: auto;
+}

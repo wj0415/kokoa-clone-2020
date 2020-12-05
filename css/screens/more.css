@@ -1,0 +1,38 @@
+.more-screen .user-component__column {
+  color: inherit;
+}
+.more-screen .user-component {
+  margin-bottom: 10px;
+}
+
+.more-suggestions {
+  border-top: var(--main-border);
+  padding-top: 25px;
+}
+
+.more-suggestions__title {
+  font-weight: 600;
+  font-size: 10px;
+  margin-bottom: 25px;
+}
+.more-suggestions__icons {
+  display: flex;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.more-suggestions__icon-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.more-suggestions__icon-text {
+  opacity: 0.5;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+}
