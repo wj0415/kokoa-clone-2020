@@ -2,8 +2,10 @@
   --default-color: #2e363e;
   --yellow: #fae100;
   --horizontal-space: 20px;
+  --header-top-space:44px;
   --gray: #929292;
   --light-gray: #d5d5d5;
   --font-gray: rgba(0, 0, 0, 0.5);
   --main-border: 1px solid var(--light-gray);
+  --chat-bg-color: rgb(219, 137, 54);
 }

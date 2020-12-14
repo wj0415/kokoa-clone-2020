@@ -15,3 +15,14 @@
 .settings__setting__column i {
   margin-right: 20px;
 }
+@keyframes shaky{
+  0%,100%{
+    transform: rotateZ(45deg);
+  }
+  50%{
+    transform: rotateZ(-45deg);
+  }
+}
+.settings__setting:hover i{
+  animation: shaky 0.8s linear infinite;
+}

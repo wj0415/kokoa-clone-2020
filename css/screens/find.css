@@ -70,8 +70,8 @@
 }
 
 .open-post__photo img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 20px;
 }
 
@@ -89,4 +89,19 @@
 }
 .open-post__heart-cnt span {
   margin-left: 5px;
+}
+
+@keyframes heartBeat{
+  0%,100%{
+    transform:none;
+    color:white;
+  }
+  50%{
+    color: palevioletred;
+    transform: scale(1.8);
+  }
+}
+.open-post__heart-cnt:hover i{
+  will-change: transform;
+  animation: heartBeat .5s linear infinite;
 }

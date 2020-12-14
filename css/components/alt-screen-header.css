@@ -3,8 +3,30 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 20px;
+  
 }
 
-.alt-screen-header__column:nth-child(2) {
-  margin: auto;
+.alt-header__title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.alt-screen-header__column{
+  width: 33%;
+}
+
+.alt-screen-header__column:first-child{
+  display:flex;
+  justify-content: flex-start;
+}
+
+.alt-screen-header__column:last-child{
+  display:flex;
+  justify-content: flex-end;
+}
+.alt-screen-header__column:last-child i:last-child{
+  margin-left: 10px;
+}
+.alt-screen-header__column:nth-child(2){
+  text-align: center;
 }

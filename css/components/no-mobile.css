@@ -1,0 +1,19 @@
+#no-mobile{
+    position: absolute;
+    background-color:var(--chat-bg-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+}
+
+
+@media screen and (max-width: 645px){
+    #no-mobile{
+        display:none;
+    }
+}

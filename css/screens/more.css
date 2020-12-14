@@ -36,3 +36,20 @@
   font-weight: 600;
   margin-top: 10px;
 }
+
+@keyframes likeBubble{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: translateY(-5px);
+  }
+  100%{
+    transform: none;
+  }
+}
+
+.icon-row__column:hover i{
+  animation: likeBubble 0.8s linear infinite;
+ 
+}

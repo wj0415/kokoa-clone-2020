@@ -35,3 +35,28 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@keyframes hideSplashScreen{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen{
+  background-color: var(--chat-bg-color);
+  position: absolute;
+  top:0;
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 1.3s;
+}
+
